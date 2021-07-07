@@ -1,0 +1,1301 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    width: 90vw;
+}
+
+main{
+    padding: 20px;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr, auto;
+    grid-template-rows: auto, auto, auto, auto, auto;
+}
+
+/* ---------------------------- */
+
+/* HEADER */
+header .liens1{
+    color: #F4A460;
+    text-decoration: none;
+}
+
+.header{
+    margin-bottom: 10px;
+    font-size: 14px;
+    height: 30px;
+    padding: 10px;
+}
+/* FIN HEADER */
+
+/* ---------------------------- */
+
+/* ETAPES */
+.etapes{
+    height: 80px;
+    width: 90vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 100px;
+}
+
+.etapes .souligne{
+    text-decoration: underline;
+    color: #2D6A4F;
+}
+
+.etapes .fade{
+    color: rgba(0, 0, 0, .3);
+}
+/* FIN ETAPES */
+
+/* ---------------------------- */
+
+main .lesdeux{
+    display: flex;
+    display: grid;
+    box-sizing: border-box;
+}
+
+/* ---------------------------- */
+
+/* PANIER */
+.panier{
+    width: 49vw;
+    background: #FFF2E7;
+    border-radius: 25px;
+    padding: 20px 15px 50px;
+    margin: 50px;
+    display: grid;
+    grid-row: 3/5;
+}
+
+.panier h3{
+    color: #F4A460;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.panier .titre-panier{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.panier .p1{
+    font-weight: bold;
+}
+
+.panier hr{
+    height: 2px;
+    border: 1px solid #FFBB8B;
+}
+
+.panier .td1{
+    width: 150px;
+    text-align: center;
+}
+
+.panier .td2{
+    width: 160px;
+    padding-right: 20px;
+}
+
+.panier .ref{
+    color: #7F7E7E;
+    font-size: 12px;
+}
+
+.panier .supprimer{
+    border: none;
+    background: #FFF2E7;
+    color: #2D6A4F;
+    text-decoration: underline;
+}
+
+.panier .prix1{
+    font-weight: bold;
+}
+
+.panier .plus{
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background: #2D6A4F;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.panier .mille{
+    color: #F4A460;
+    font-weight: bold;
+    display: flex;
+    display: grid;
+    grid-template-columns: auto, auto, auto, auto, auto;
+    grid-template-rows: auto, auto;
+}
+
+.panier .orange1{
+    width: 40vw;
+    gap: 30px;
+    display: flex;
+}
+
+.panier .orange2{
+    display: flex;
+    flex-direction: column;
+}
+
+.mille .article{
+    padding-top: 10px;
+    display: flex;
+    color: black;
+    font-weight: normal;
+}
+
+.mille .design{
+    padding-top: 10px;
+    display: flex;
+    color: black;
+    font-weight: normal;
+}
+
+.mille .couleur{
+    padding-top: 10px;
+    display: flex;
+    color: black;
+    font-weight: normal;
+}
+
+.mille .taille{
+    padding-top: 10px;
+    display: flex;
+    color: black;
+    font-weight: normal;
+}
+
+.mille .prix{
+    padding-top: 10px;
+    display: flex;
+    color: black;
+}
+
+.mille .quant{
+    padding-top: 10px;
+    display: flex;
+    color: black;
+    font-weight: normal;
+}
+
+.mille .ref{
+    font-weight: normal;
+}
+
+.mille .supprimer{
+    border: none;
+    background: #FFF2E7;
+    color: #2D6A4F;
+    text-decoration: underline;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* FIN PANIER */
+
+/* ---------------------------- */
+
+/* COMMANDE */
+.commande{
+    width: 30vw;
+    background: #FFF2E7;
+    border-radius: 25px;
+    padding: 20px 15px 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-row: 3/4;
+}
+
+.commande h3{
+    color: #F4A460;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.commande .titre2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.commande .tarifs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.commande .prix2{
+    text-align: right;
+}
+
+.commande .prix-livr{
+    font-weight: bold;
+}
+
+.commande .promo{
+    width: 28vw;
+    height: 53px;
+    border: 1px solid #2D6A4F;
+    border-radius: 10px;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.commande .code{
+    height: 40px;
+    margin: 5px 15px;
+    border: none;
+}
+
+.commande .ok{
+    border: none;
+    background: white;
+    text-align: right;
+    width: 50px;
+    height: 40px;
+
+}
+
+.commande hr{
+    border: 1px solid #FFBB8B;
+}
+
+.commande .prix-total{
+    font-size: 20px;
+}
+
+.commande .texte-tot{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.commande .p6{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.commande .jauge1{
+    width: 338px;
+    height: 8px;
+    background: #2D6A4F;
+    border: 2px solid #2D6A4F;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.commande .jauge2{
+    width: 153px;
+    height: 8px;
+    background: white;
+    border: 2px solid #2D6A4F;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.commande .jauges{
+    display: flex;
+    justify-content: flex-start;
+}
+/* FIN COMMANDE */
+
+/* ---------------------------- */
+
+main .bas-droite{
+    display: flex;
+    justify-content: flex-end;
+    display: grid;
+    grid-column: 1/2;
+    box-sizing: border-box;
+}
+
+/* ---------------------------- */
+
+/* VALIDER */
+.valider{
+    margin-bottom: 20px;
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.valider .bouton-valid{
+    width: 35vw;
+    height: 62px;
+    border-radius: 30px;
+    background: #2D6A4F;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px -2px 10px 2px inset;
+}
+/* FIN VALIDER */
+
+/* --------------------------- */
+
+.panier, .commande{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 20px 1px;
+}
+
+/* --------------------------- */
+
+/* QUESTIONS */
+.questions{
+    width: 25vw;
+    text-align: center;
+    margin-left: 80px;
+    display: grid;
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+
+.questions .titre3{
+    color: #F4A460;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.questions .liens2{
+    color: black;
+    text-decoration: none;
+}
+/* FIN QUESTIONS */
+
+/* --------------------------- */
+
+/* MEDIA QUERIES */
+@media (max-width: 1650px){
+    .commande .tarifs{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .commande .texte-tot{
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .commande .jauge1{
+        width: 298px;
+        height: 8px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 113px;
+        height: 8px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 1600px){
+    .commande .code{
+        height: 40px;
+        margin: 5px;
+        padding-left: 5px;
+        border: none;
+        width: 300px;
+    }
+}
+
+@media (max-width: 1450px){
+    .commande hr{
+        display: none;
+    }
+
+    .commande .jauge1{
+        width: 288px;
+        height: 8px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 103px;
+        height: 8px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .panier .td1{
+        width: 120px;
+        text-align: center;
+    }
+
+    .panier .td2{
+        width: 140px;
+        padding-right: 20px;
+    }
+
+    .panier .article{
+        width: 100px;
+    }
+}
+
+@media (max-width: 1350px){
+    .commande .jauge1{
+        width: 278px;
+        height: 8px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 93px;
+        height: 8px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .commande .code{
+        height: 40px;
+        margin: 5px;
+        padding-left: 5px;
+        border: none;
+        width: 250px;
+    }
+}
+
+@media (max-width: 1300px){
+    .commande .jauge1{
+        width: 268px;
+        height: 8px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 83px;
+        height: 8px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 1220px){
+    .commande .jauge1{
+        width: 250px;
+        height: 8px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 70px;
+        height: 8px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 1150px){
+    .commande .code{
+        height: 40px;
+        margin: 5px;
+        padding-left: 5px;
+        border: none;
+        width: 200px;
+    }
+
+    .commande .jauge1{
+        width: 240px;
+        height: 8px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 60px;
+        height: 8px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .panier .td1{
+        width: 100px;
+        text-align: center;
+    }
+
+    .panier .td2{
+        width: 100px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1050px){
+    .commande .jauge1{
+        width: 230px;
+        height: 8px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 50px;
+        height: 8px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 1000px){
+    .panier td{
+        display: none;
+    }
+
+    .panier hr{
+        display: none;
+    }
+
+    .commande .code{
+        height: 40px;
+        margin: 5px;
+        padding-left: 5px;
+        border: none;
+        width: 180px;
+    }
+
+    .commande .jauge1{
+        width: 215px;
+        height: 8px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 35px;
+        height: 8px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (min-width: 1000px){
+    .panier .mille{
+        display: none;
+    }
+}
+
+@media (max-width: 930px){
+    .panier .orange1{
+        width: 30vw;
+        gap: 20px;
+        display: flex;
+    }
+}
+
+@media (max-width: 900px){
+    .commande .code{
+        height: 40px;
+        margin: 5px;
+        padding-left: 5px;
+        border: none;
+        width: 150px;
+    }
+
+    .commande .jauge1{
+        width: 205px;
+        height: 8px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 25px;
+        height: 8px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 850px){
+    main{
+        padding: 20px;
+        width: 95vw;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto, auto, auto, auto, auto, auto;
+    }
+
+    main .lesdeux{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .panier{
+        width: 90vw;
+        background: #FFF2E7;
+        border-radius: 25px;
+        padding: 20px 15px 50px;
+        margin-left: 0;
+    }
+
+    .mille .article{
+        width: 20vw;
+    }
+
+    .mille .design{
+        width: 15vw;
+    }
+
+    .mille .couleur{
+        width: 15vw;
+    }
+
+    .mille .taille{
+        width: 10vw;
+    }
+
+    .mille .prix{
+        width: 10vw;
+    }
+
+    .mille .quant{
+        width: 20vw;
+    }
+
+    .commande{
+        width: 90vw;
+        background: #FFF2E7;
+        border-radius: 25px;
+        padding-left: 10px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .commande .tarifs{
+        width: 85vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .commande .texte-tot{
+        width: 85vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .commande .promo{
+        width: 85vw;
+        height: 53px;
+        border: 1px solid #2D6A4F;
+        border-radius: 10px;
+        background: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .commande .code{
+        height: 40px;
+        margin: 5px;
+        padding-left: 5px;
+        border: none;
+        width: 65vw;
+    }
+
+    .commande .jauge1{
+        width: 405px;
+        height: 10px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 220px;
+        height: 10px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+    
+    .commande .jauges{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .valider{
+        width: 95vw;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+    .valider .bouton-valid{
+        width: 85vw;
+        height: 62px;
+        border-radius: 30px;
+        margin-left: 0;
+        background: #2D6A4F;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px -2px 10px 2px inset;
+    }
+
+    .questions{
+        margin-top: 40px;
+        width: 60vw;
+        text-align: center;
+    }
+}
+
+@media (max-width: 810px){
+    .etapes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        text-align: right;
+        gap: 30px;
+        height: 10px;
+    }
+
+    .etapes img{
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+    .commande .code{
+        height: 40px;
+        margin: 5px;
+        padding-left: 5px;
+        border: none;
+        width: 55vw;
+    }
+
+    .commande .jauge1{
+        width: 390px;
+        height: 10px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 205px;
+        height: 10px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 750px){
+    .commande .jauge1{
+        width: 370px;
+        height: 10px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 185px;
+        height: 10px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 700px){
+    .mille .article{
+        width: 15vw;
+    }
+
+    .mille .design{
+        width: 15vw;
+    }
+
+    .mille .couleur{
+        width: 15vw;
+    }
+
+    .mille .taille{
+        width: 10vw;
+    }
+
+    .mille .prix{
+        width: 10vw;
+    }
+
+    .commande .jauge1{
+        width: 350px;
+        height: 10px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 165px;
+        height: 10px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 650px){
+    .commande .jauge1{
+        width: 330px;
+        height: 10px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 145px;
+        height: 10px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 600px){
+    .etapes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        text-align: right;
+        gap: 30px;
+        height: 10px;
+    }
+
+    .mille .article{
+        width: 15vw;
+    }
+
+    .mille .design{
+        width: 12vw;
+    }
+
+    .mille .couleur{
+        width: 12vw;
+    }
+
+    .mille .taille{
+        width: 10vw;
+    }
+
+    .mille .prix{
+        width: 10vw;
+    }
+
+    .commande .jauge1{
+        width: 310px;
+        height: 10px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 125px;
+        height: 10px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .valider{
+        width: 95vw;
+        margin-left: 0px;
+        margin-top: 20px;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .valider .bouton-valid{
+        width: 90vw;
+        height: 62px;
+        padding-left: 0;
+        border-radius: 30px;
+        margin-left: 0;
+        background: #2D6A4F;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px -2px 10px 2px inset;
+    }
+}
+
+@media (max-width: 550px){
+    .etapes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        text-align: right;
+        gap: 20px;
+        height: 10px;
+    }
+
+    .mille .article{
+        width: 15vw;
+    }
+
+    .mille .design{
+        width: 10vw;
+    }
+
+    .mille .couleur{
+        width: 8vw;
+    }
+
+    .mille .taille{
+        width: 8vw;
+    }
+
+    .mille .prix{
+        width: 8vw;
+    }
+
+    .panier{
+        width: 90vw;
+        background: #FFF2E7;
+        border-radius: 25px;
+        padding: 20px 15px 50px;
+        margin-left: 0;
+    }
+
+    .commande{
+        width: 90vw;
+        background: #FFF2E7;
+        border-radius: 25px;
+        padding: 20px 15px 50px;
+        margin-left: 00px;
+    }
+
+    .commande .jauge1{
+        width: 290px;
+        height: 10px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 105px;
+        height: 10px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .valider .bouton-valid{
+        width: 90vw;
+        height: 62px;
+        border-radius: 30px;
+        margin-left: 0;
+        background: #2D6A4F;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px -2px 10px 2px inset;
+    }
+}
+
+@media (max-width: 500px){
+    .mille .article{
+        width: 15vw;
+    }
+
+    .mille .design{
+        width: 8vw;
+    }
+
+    .mille .couleur{
+        width: 8vw;
+    }
+
+    .mille .taille{
+        width: 8vw;
+    }
+
+    .mille .prix{
+        width: 8vw;
+    }
+
+    .panier{
+        width: 95vw;
+        background: #FFF2E7;
+        border-radius: 25px;
+        padding: 20px 15px 50px;
+        margin-left: 5px;
+    }
+
+    .commande{
+        width: 95vw;
+        background: #FFF2E7;
+        border-radius: 25px;
+        padding: 20px 15px 50px;
+        margin-left: 5px;
+    }
+
+    .commande .jauge1{
+        width: 270px;
+        height: 10px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 85px;
+        height: 10px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 480px){
+    .etapes{
+        display: flex;
+        font-size: 13px;
+        text-align: right;
+        gap: 20px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 470px){
+    .panier{
+        width: 95vw;
+        background: #FFF2E7;
+        border-radius: 25px;
+        padding: 20px 15px 50px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        font-size: 14px
+    }
+
+    .commande{
+        width: 95vw;
+        background: #FFF2E7;
+        border-radius: 25px;
+        padding: 20px 15px 50px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .mille .article{
+        width: 15vw;
+    }
+
+    .mille .design{
+        width: 8vw;
+    }
+
+    .mille .couleur{
+        width: 6vw;
+    }
+
+    .mille .taille{
+        width: 6vw;
+    }
+
+    .mille .prix{
+        width: 6vw;
+    }
+}
+
+@media (max-width: 450px){
+    .panier{
+        width: 95vw;
+        background: #FFF2E7;
+        border-radius: 25px;
+        padding: 20px 15px 50px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        font-size: 14px
+    }
+
+    .commande .jauge1{
+        width: 250px;
+        height: 10px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 65px;
+        height: 10px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 400px){
+    .etapes{
+        display: flex;
+        font-size: 12px;
+        text-align: right;
+        gap: 20px;
+        height: 10px;
+    }
+
+    .commande{
+        width: 98vw;
+        background: #FFF2E7;
+        border-radius: 25px;
+        padding: 20px 15px 50px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        font-size: 13px;
+    }
+
+    .panier{
+        width: 100vw;
+        background: #FFF2E7;
+        border-radius: 25px;
+        padding: 10px 10px 50px;
+        margin: 2px;
+        font-size: 13px
+    }
+
+    .commande .jauge1{
+        width: 230px;
+        height: 10px;
+        background: #2D6A4F;
+        border: 2px solid #2D6A4F;
+        border-radius: 5px 0px 0px 5px;
+    }
+    
+    .commande .jauge2{
+        width: 45px;
+        height: 10px;
+        background: white;
+        border: 2px solid #2D6A4F;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 370px){
+    main{
+        padding: 10px;
+    }
+
+    .panier .ref{
+        font-size: 10px;
+    }
+
+    .mille .article{
+        width: 15vw;
+    }
+
+    .mille .design{
+        width: 6vw;
+    }
+
+    .mille .couleur{
+        width: 4vw;
+    }
+
+    .mille .taille{
+        width: 4vw;
+    }
+
+    .mille .prix{
+        width: 4vw;
+    }
+}
+
+@media (max-width: 350px){
+    main{
+        padding: 5px;
+    }
+
+    .commande .code{
+        height: 40px;
+        margin: 5px;
+        padding-left: 5px;
+        border: none;
+        width: 50vw;
+    }
+
+    .panier .ref{
+        font-size: 10px;
+    }
+
+    .mille .article{
+        width: 12vw;
+    }
+
+    .mille .design{
+        width: 5vw;
+    }
+
+    .mille .couleur{
+        width: 3vw;
+    }
+
+    .mille .taille{
+        width: 3vw;
+    }
+
+    .mille .prix{
+        width: 3vw;
+    }
+}

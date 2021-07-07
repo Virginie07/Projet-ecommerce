@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement</title>
+    <link rel="stylesheet" href="paiement.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section class="section flex">
+   
+    <div class="arbo">
+        <a href=""> Accueil ></a>
+        <a href="">Panier ></a>
+        <a href="">Commande</a>
+    </div>
+
+    <div class="etapes flex">
+
+            <div class="rond flex">1 </div>
+            <div class="alaligne text1">MON PANIER</div>
+     
+            <div class="rond flex">2 </div>
+            <div class="alaligne">S'IDENTIFIER</div>
+       
+            <div class="rond flex">3 </div>
+            <div class="alaligne">LIVRAISON</div>
+    
+            <div class="rond flex quatre">4 </div>
+            <div class="alaligne etapepaiement">PAIEMENT</div>
+
+   </div>
+
+   <!-- ETAPES EN VERSION MOBILE  -->
+
+ <div class="versionphone flex"> 
+ 
+<P class="derniereversion bold">1. MON PANIER</P>
+<P class="derniereversion bold">2. S'IDENTIFIER</P>
+<P class="derniereversion bold">3.LIVRAISON</P>
+<P class="derniereversion envert bold underline">4. PAIEMENT</P>
+
+</div> 
+
+   <!-- ETAPES EN VERSION MOBILE  -->
+
+   <!-- ETAPES EN VERSION TABLETTE   -->
+
+   <div class="etapesmobile flex">
+
+    <div class="alaligne text1m">1.PANIER ></div>
+    <div class="alaligne">2.S'IDENTIFIER ></div>
+    <div class="alaligne">3.LIVRAISON ></div>
+    <div class="alaligne etapepaiement">4.PAIEMENT</div>
+
+</div>
+
+   <!-- FIN DES ETAPES EN VERSION TABLETTE  -->
+
+ 
+<div class="paiement">
+    <hr class="barre1 disparais">
+    <input type="radio" id="Paypal" name="drone" value="Paypal" class="paypal">
+  <label for="huey" class="engras space">Paiement Par Paypal</label>
+
+        <hr class="barre2">
+
+        <input type="radio" id="CB" name="drone" value="CB" class="CB">
+        <label for="huey" class="engras space">Paiement Par Carte Bancaire <span class="prs">Paiement rapide et sécurisé</span></label>
+    <p class="engras montant">Montant de la transaction : 54.94 € </p>
+                
+                <div class="flex prs">
+                <!-- <img src="VISA 1.png" alt="icone cb" class="icone"> -->
+                <img src="./images/cb.png" alt="icone cb" class="icone">
+                </div>
+            
+            <form action="post" method="post">
+
+                <p class="bold titu">Titulaire du compte :</p>
+                <input type="text" name="compte" id="compte" class="espace prs">
+                <p class="bold titu">Numéro de carte :</p>
+                <input type="text" name="carte bancaire" id="carte bancaire" class="espace prs">
+                <p class="bold titu">Date d'expiration :</p>
+                <div class="ccv flex">
+                    <input type="text" name="exp" id="" class="code espace prs" placeholder="MM">
+                    <input type="text" name="exp" id="" class="code espace prs" placeholder="AA">
+                    <input type="text" name="exp" id="" class="code espace prs">
+                    <label for="CCV">CVV</label>
+                    <a href="" class="envert lien prs">Qu'est-ce que c'est ?</a>
+                </div>
+                <input type="submit" value="Valider le paiement" class="envoyer prs">
+                
+
+<hr class="barre2 disparais"> 
+            </form>
+
+            <br>
+
+        </div>        
+
+    </div>
+</div>
+
+<div class="recap">
+
+    <h2 class="titrerecap envert">RÉCAPITULATIF</h2>
+
+        <h3>ADRESSE DE LIVRAISON</h3>
+        <br>
+
+        <P>45 rue du Container Déconfiné</P>
+        <P>Allée 1, Grid 4</P>
+        <P>Paris, France</P>
+        
+        <hr class="barre3">
+
+        <h3 class="macommande">MA COMMANDE</h3>
+
+        <div class="montantpanier flex">
+            <p>Montant du panier</p>
+            <p>20,99 €</p>
+        </div>
+
+        <div class="livraison flex">
+            <p>Livraison</p>
+            <p>4,95 €</p>
+        </div>
+
+        <hr class="barre3">
+        
+        <div class="total flex">
+        <h2>Total</h2>
+        <p class="bold">25,94 €</p>
+        </div>
+
+    </div>
+ 
+</div>
+
+<h4 class="pourquoi ">PAIEMENT SÉCURISÉ <span class="pqalaligne"> (Connexion cryptée sécurisée SSL, sécurité maximale garantie)</h4> </span>
+</section>
+
+
+
+    
+</body>
+</html>

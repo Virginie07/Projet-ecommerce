@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;  
+    font-family:'Montserrat', sans-serif; 
+}
+
+/* MEDIA QUERIES VERISON DESKTOP (ETAT INITIAL)  */
+
+@media (min-width: 810px) {
+.section {
+
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    background-color: #ffffff; 
+    
+}
+
+.section .arbo {
+    grid-row: 1/2;
+    grid-column: 1/3;
+    margin-top: 2vh;
+    font-size: larger;
+    margin-bottom: 1.5vh;
+}
+
+.section .corps {
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+/* ------------BOX PAIEMENT------------- */
+.section .paiement {
+    
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+/* ------------BOX RECAP------------- */
+.section .recap {
+    
+    grid-row: 3/4;
+    grid-column: 2/3; 
+    background-color: #fff2e7; 
+    border: #FFF2E7 solid 1px; 
+    box-shadow: 1px 1px 2px .5px rgba(230, 165, 69, 0.4);  
+    width: 80%;
+    height: 92%;
+    padding: 5% 6% 9% 7%;
+
+}
+
+section .etapes {
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+section .textetapes {
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+
+section .pourquoi {
+    grid-row: 4/5;
+    grid-column: 1/3;
+}
+
+section .pqalaligne {
+    display: inline;
+}
+
+section .etapesmobile {
+    display: none !important;
+}
+
+}
+
+/* FIN DES MEDIA QUERIES VERISON DESKTOP (ETAT INITIAL)  */
+
+.section .flex {
+    display: flex;
+
+}
+
+section .versionphone {
+    display: none !important;
+
+}
+
+
+/* ------------BOX RECAPITULATIF------------- */
+.section .recap {
+    
+    border-radius: 6%; 
+    /* background-color: #fff2e7;  */
+    box-sizing: border-box;  
+    display: block;
+    margin-left: 12%;
+    margin-right: 9%;
+    /* width: 80%;
+    height: 92%; */    
+}
+
+a {
+    color: #F4A460;
+    text-decoration:none;
+}
+/*--------------- ETAPES 1234 TOP PAGE---------------- */
+.section .rond {
+    border: solid black 2px;
+    width: 35px;
+    border-radius: 60%;
+    height: 35px;
+    justify-content: center;
+    margin-left: 10%;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.section .etapes {
+    justify-content: center;
+    margin: 3vh 13% 8vh 0%;   
+}
+
+.section .text-bouton {
+    margin: 0vh 9% 6vh 0%;   
+}
+
+.section .textetapes {
+   
+    justify-content: center;
+    margin-bottom: 7vh; 
+    text-align: center;    
+}
+
+section .etapepaiement {
+    color: #2D6A4F; 
+    text-decoration: underline;
+    font-weight:bolder;  
+}
+hr {
+    height: 1px;
+        background-color: #2D6A4F;
+        border: none;       
+}
+
+section .pourquoi {
+    
+   justify-self: center;
+   margin-bottom: 4vh;
+   margin-top: -1vh;
+}
+
+section p,
+section input {
+    padding: 1vh;
+    margin: 1vh;
+}
+
+section .envoyer {
+    background-color: #2D6A4F;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 24px 9px 20px;
+    margin-left: 4%;
+    margin-bottom: .7vh;
+    margin-top: 2.5%;
+    box-shadow: -1px 2px 2px 1px rgba(28, 85, 45, 0.2); 
+    border-style: none;
+
+}
+
+section .macommande {
+    margin: 4% 0% 4% 36%;
+}
+
+section .titrerecap {
+    margin: 0% 0% 6% 30%;    
+}
+
+section .code {
+    width: 39px;
+    height: 6px;
+}
+
+
+section .envert {
+    color: #2D6A4F;    
+}
+
+section .montantpanier,
+section .total,
+section .livraison {
+    justify-content: space-between;
+    font-size: larger;
+}
+
+section .total {
+    margin-top: 4vh;
+    font-size: x-large;
+}
+
+section span {
+    display: block;
+    font-weight: lighter;
+}
+
+.section .engras {
+    font-size: larger;
+    font-weight: bolder;
+}
+    
+ section .bold {
+     font-weight: bolder;
+ }
+
+ section .paiement,
+ section .arbo {
+     margin-left: 5.5vh;       
+ }
+
+ section .prs {
+    margin-left: 4.5vh;       
+}
+
+section .titu {
+    margin-left: 3.9vh;
+}
+
+section .montant {
+    margin-left: 3vh;
+}
+
+ section .alaligne {
+     display: block;
+     font-weight: bolder;
+     margin-top: 10vh; 
+     margin-left: -5%;  
+ }
+
+ section .barre1 {
+     margin-bottom: 3vh;
+ }
+
+ section .barre2 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+section .barre3 {
+    margin-top: 0vh;
+    
+}
+
+section .espace {
+    margin-top: -1vh;
+}
+
+section .lien {
+    text-decoration: underline;
+}
+
+section .quatre {
+    background-color: #2D6A4F !important;
+    color:white !important;
+    border-color:#2D6A4F !important;  
+    font-weight: bolder;   
+}
+
+section .etapesmobile {
+    display: none !important;
+}
+
+
+/* ------------- RESPONSIVE - MEDIA QUERIES  ------------ */
+@media (max-width: 1080px) { 
+    section .etapepaiement,
+    section .alaligne { 
+        margin: 10vh 2% 8vh -7%;     
+    }
+ }
+
+@media (max-width: 1000px) { 
+    section .titrerecap {
+        margin: 0% 0% 6% 24%;  
+    }
+ }
+
+ @media (max-width: 935px) { 
+    section .total {
+        margin-top: 7vh;
+    }
+ }
+
+ @media (max-width: 830px) { 
+    section .macommande {
+        margin: 4% 0% 4% 20%;
+    }
+
+    section .titrerecap {
+        margin: 0% 0% 6% 15.5%; 
+    }
+ }
+
+/* ------------- VERISON MOBILE ET TABLETTE  ------------ */
+
+ @media (max-width: 810px) { 
+     section {
+        
+        display: grid; 
+        /* grid-template-columns: 1fr; 
+        grid-template-rows: auto auto 1fr 1fr;   */
+         width: 100%; 
+        grid-template-areas: "arbo"
+                            "etapes"
+                            "recap"
+                            "paiement"; 
+     }
+
+     section .paiement {
+         /* grid-row: 4/5;
+         grid-column: 1/2; */
+         height: 100%;
+         width: 80%;
+         padding-bottom: -5%;
+         margin-right: -10%;
+         grid-area: paiement;
+         margin: 3% 5% -5% 12%;
+        border: #349667 solid 1.5px; 
+        border-radius: 6%; 
+        padding: 4% 4% 1% 4% ;
+    
+     }
+
+     section .etapes {
+         grid-column: 1/2;
+         grid-row: 2/3;
+         grid-area: etapes;
+         
+     }
+     section .macommande {
+        margin: 4% 0% 4% 36%;
+        
+    }
+
+     section .recap {
+         grid-row: 3/4;
+         grid-column: 1/2;
+         grid-area: recap;
+         background-color: #fff2e7; 
+         border: #FFF2E7 solid 1px;
+         padding: 5% 7% 9% 7%;
+         
+     }
+
+     section .titrerecap {
+         justify-content: center;
+         margin: 0% 0% 6% 30%; 
+     }
+
+     section .arbo {
+         grid-column: 1/2;
+         grid-row: 1/2;
+         grid-area: arbo;
+         margin-left: 9%;
+     }
+
+     section .pourquoi {
+    
+        margin-bottom: 2vh;
+        margin-top: 10vh;
+        margin-left: 20vh;
+     }
+
+     section .pqalaligne {
+         display: block;
+       margin-left: -14vh;
+       margin-top: 3vh;
+     }
+
+     section .arbo {
+        margin-top: 3vh;
+        font-size: larger;
+        margin-bottom: 7.5vh;
+     }
+
+     section .text1 {
+  
+        text-align: left;
+        
+     }
+
+     section .disparais {
+         display: none;
+     }
+
+     section .envoyer {
+         margin-top: 6vh;
+         margin-left: 15vw;
+         margin-bottom: 5%;
+         width: 50%;             
+     }
+
+     section .code {
+        width: 7vw;
+        height: 2vh;
+        margin-top: 2px;
+    }
+}
+/* --------------------------BREAKING POINTS 685 ---------------- */
+@media (max-width:685px) {
+    section .etapes {
+        display: none !important;
+    }
+
+    section .etapesmobile {
+        justify-content: space-evenly;
+    }
+
+    section .text1m {
+        margin-left: 1vw;
+    }
+
+    section .versionphone {
+        display: initial !important;
+        /* grid-row: 2/3; */
+       /* background: #b897d8; */
+       font-size: larger;
+       margin-left: 30vw;    
+       
+    }
+
+section .underline {
+text-decoration: underline;
+margin-bottom: 5vh;
+}
+
+ 
+}
+
+/* ------------- VERISON MOBILE 560PX ET MOINS  ------------ */
+
+@media (max-width :560px) {
+
+    section .paiement {
+        height: auto;
+        width: 80vw;
+        padding: 5% 8% 10% 7%;
+        margin-left: 9vw;
+        margin-right: -9vw;
+       
+    }
+
+    section .recap {
+        /* padding: 5% 61% 11% 7%; */
+        /* margin-left: 12%; */
+        width: 80vw;
+        height: auto;
+        padding: 5% 6% 10% 7% ;
+        margin-left: 9vw;
+        margin-right: 9vw;
+        margin-bottom: 4vh;       
+        
+    }
+
+    section .titrerecap {
+        /* margin-right: 20vw; */
+        font-size: 5vw;
+        text-align-last:left;  
+        
+    }
+
+    section .pourquoi {
+    
+        margin-bottom: 2vh;
+        margin-top: 10vh;
+        margin-left: 5vh;
+     }
+
+     section .pqalaligne {
+         display: block;
+       margin-left: -20vw;
+       margin-top: 3vh;
+     }
+}
+
+@media (max-width:510px) {
+    section .pqalaligne {
+        display: none !important;
+    }
+
+    section .pourquoi {
+    
+        /* margin-bottom: 2vh;
+        margin-top: 10vh; */
+        margin-left: -6vw;
+     }
+
+     section .alaligne {
+        display: none !important;
+    } 
+
+    section .envoyer {
+        width: 45vw;
+        margin-left: 3vw;
+    }
+
+}
+
+@media (max-width:510px) {
+    section .lien {
+        display: none;
+    }
+}

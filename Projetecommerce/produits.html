@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits</title>
+    <link rel="stylesheet" href="produits.css">
+</head>
+<body>
+    <section class="robert">
+        <div class="flexible paul">
+            <a href="insérerlien">Accueil >&thinsp;</a>
+            <a href="insérerlien">Collection >&thinsp;</a>
+            <a href="insérerlien">Blouses & chemises</a>
+        </div>
+
+        <section class="martha">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img class="produit" src="./Images/article.jpg"/>
+                </div>
+                <div class="mySlides fade">
+                        <img class="produit" src="./Images/dos.jpg"/>
+                    </div>
+                    <div class="mySlides fade">
+                            <img class="produit" src="./Images/pleinpied.jpg"/>
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            
+        <div class="simon">
+            <h3>CHEMISE CINTRÉE IMPRIMÉE DÉTAIL VOLANTS <span>20,99 €</span></h3>
+            <p class="nicolas">REF. PENC190_G0AG</p>
+
+                <div class="gertrude flexible">
+                    <p class="anne"><img class="ellipse" src="./Images/Ellipse 3.png" width="18" height="18">Garden vert</p>
+                    <p class="marguerite">Taille unique</p>
+        </div>
+        
+            <div class="pedro">
+                <p class="elsa">Les chemises se réinventent en cette saison dans une version inédite, féminine et sophistiquée.</p>
+                <p class="elsa">Principalement confectionée de coton, ce nouveau must-have allie des manches en volant avec un chemisier ouvert à l'arrière.</p>
+                <p class="elsa">Ce futur it estival aux motifs fleuris a tout pour plaire.</p>
+                <p class="elsa">Col à encolure dégagée. <br>
+                Pointelle de coton mélangé. <br>
+                Manches à volant. <br>
+                Ouverture au dos avec bouton.</p> <br>
+            </div>
+        </div>
+
+            <form class="flexible michel">
+                <div class="totoro">
+                    <div class="paulette">
+                        <div class="chris">
+                            AJOUTER AU PANIER
+                        </div>
+                        <img class="jill" src="./Images/panier.png" alt="panier" height="20" width="20"/>
+                    </div>
+                    <input type="button" value="" class="kokoro">
+                </div>
+
+                <div class="mononoke">
+                    <input type="button" value="RESERVATION GRATUITE EN BOUTIQUE" class="renaud">
+                </div>
+            </form>
+
+            <div class="flexible compote">
+                    <div class="patrice">
+                <p class="martin"> MATIERE PRINCIPALE : </p>
+                <br>
+                <p class="corinne">Coton (64%), Viscose (36%) / Manches: Coton (53%), Viscose (32%), Polyamide (14%), Elasthanne (1%) / Volant: Coton (53%), Viscose (32%), Polyamide (14%), Elasthanne (1%) / Milieu: Coton (53%), Viscose (32%), Polyamide (14%)</p>
+                    </div>
+
+                    <div class="eleonore"> 
+                <p class="emile">ENTRETIEN :</p>
+                <br>
+                <p class="lana">Lavage machine à 30°C<br>
+                    Javel interdit <br>
+                    Repassage basse température
+                    Nettoyage à sec interdit <br>
+                    Séchoir électrique interdit <br>
+                    Séchage à plat après essorage</p>
+                    </div>
+            </div>
+
+            <div class="spacer"></div>
+        </section>
+    </section>
+</body>
+
+<script type="text/javascript">
+    // SLIDESHOW from W3Schools.com - https://www.w3schools.com/howto/howto_js_slideshow.asp
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slides[slideIndex-1].style.display = "block";
+}
+</script>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="panier.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <title>Panier</title>
+</head>
+<body>
+ 
+    <main>
+ 
+        <!-- HEADER -->
+        <header class="header">
+ 
+            <div class="liens1"><a class="liens1" href="">Accueil</a> > <a class="liens1" href="">Panier</a> > <a class="liens1" href="">Commande</a></p>
+ 
+        </header>
+        <!-- FIN HEADER -->
+ 
+        <br>
+ 
+        <!-- ETAPES -->
+        <section class="etapes">
+ 
+            <div class="icone">
+                <img src="images/1.png" alt="icone-1">
+                <h3 class="souligne">MON PANIER</h3>
+            </div>
+            <div class="icone">
+                <img src="images/2.png" alt="icone-2">
+                <h3 class="fade">S'IDENTIFIER</h3>
+            </div>
+            <div class="icone">
+                <img src="images/3.png" alt="icone-3">
+                <h3>LIVRAISON</h3>
+            </div>
+            <div class="icone">
+                <img src="images/4.png" alt="icone-4">
+                <h3>PAIEMENT</h3>
+            </div>
+        </section>
+        <!-- FIN ETAPES -->
+ 
+        <section class="lesdeux">
+ 
+        <!-- PANIER -->
+        <section class="panier">
+ 
+            <div class="titre-panier">
+                <img src="images/sac-grand.png" alt="icone-sac">
+                <h3 class="titre1">MON PANIER</h3>
+            </div>
+ 
+            <p class="p1">1 article vous attend dans votre panier</p>
+            <p class="p2">Livraison entre le 28/06/2021 et le 30/06/2021</p><br>
+ 
+        <hr>
+ 
+            <table>
+                <tr>
+                    <td class="td1">Article</td>
+                    <td class="td1">Désignation</td>
+                    <td class="td1">Couleur</td>
+                    <td class="td1">Taille</td>
+                    <td class="td1">Quantité</td>
+                    <td class="td1">Prix</td>
+                </tr>
+                </table>
+ 
+        <hr>
+ 
+                <table>
+                <tr>
+                    <td class="td2"><img class="article" src="images/photo-article.png" alt="photo-article"></td>
+                    <td class="td2">Chemise cintrée imprimée détail volants<br><span class="ref">Ref : PENC190_G0AG</span><br><br><br><br><br>
+                        <form method="GET"><input class="supprimer" type="submit" name="supprimer" value="Supprimer"></form></td>
+                    <td class="td2">Garden vert</td>
+                    <td class="td2">42</td>
+                    <td class="td2">1<form method="GET"><input class="plus" type="submit" name="bouton-plus" value="+"></form></td>
+                    <td class="td2" class="prix1">20,99€</td>
+                </tr>
+            </table>
+ 
+        <hr>
+ 
+        <!-- SOUS 1000PX -->
+        <section class="mille">
+ 
+            <div class="orange1">
+                <p>Article<img class="article" src="images/photo-article.png" alt="photo-article"></p>
+                <p>Désignation<span class="design">Chemise cintrée imprimée détail volants</span><span class="ref">Ref : PENC190_G0AG</span></p>
+                <p>Couleur<span class="couleur">Garden vert</span></p>
+                <p>Taille<span class="taille">42</span></p>
+                <p>Prix<span class="prix">20,99€</span></p>
+            </div>
+ 
+            <p class="orange2">Quantité <span class="quant">1<form method="GET"><input class="plus" type="submit" name="bouton-plus" value="+"></form></span></p><br>
+ 
+            <form method="GET"><input class="supprimer" type="submit" name="supprimer" value="Supprimer"></form>
+ 
+        </section>
+ 
+        </section>
+        <!-- FIN PANIER -->
+ 
+        <!-- COMMANDE -->
+        <section class="commande">
+            <h3 class="titre2">MA COMMANDE</h3>
+ 
+            <div class="tarifs">
+                <div class="texte1">
+                    <p class="p3">Montant du panier</p>
+                    <p class="p4">Livraison</p>
+                </div>
+                <div class="texte2">
+                    <p class="prix2">20,99€</p>
+                    <p class="prix-livr">+ 4,95€</p>
+                </div>
+            </div>
+ 
+            <div class="promo">
+                <form method="post">
+                    <input class="code" type="text" size="50" maxlength="10" name="code-promo" placeholder="Mon code promo">
+                    <input class="ok" type="submit" name="ok" value="OK">
+                </form>
+            </div>
+ 
+            <hr>
+ 
+            <div class="texte-tot">
+                <p class="p5">Total</p>
+                <p class="prix-total">25,94€</p>
+            </div>
+ 
+            <p class="p6">Plus que 19,01€ pour bénéficier de la livraison offerte en relais colis et à domicile</p>
+            
+            <div class="jauges">
+                <p class="jauge1"></p>
+                <p class="jauge2"></p>
+            </div>
+            
+        </section>
+        <!-- FIN COMMANDE -->
+ 
+    </section>
+ 
+    <section class="bas-droite">
+ 
+        <!-- VALIDER -->
+        <section class="valider">
+ 
+            <form method="POST">
+                <input class="bouton-valid" type="button" name="valider" value="VALIDER MA COMMANDE">
+            </form>
+ 
+        </section>
+        <!-- FIN VALIDER -->
+ 
+        <!-- QUESTIONS -->
+        <section class="questions">
+ 
+            <h5 class="titre3"> QUESTIONS SUR MA COMMANDE</h5>
+ 
+            <br>
+ 
+            <div>
+                <a class="liens2" href="">Comment suivre mon colis ?</a><br>
+                <a class="liens2" href="">Je souhaite annuler ou modifier ma commande</a><br>
+                <a class="liens2" href="">Je souhaite retourner ma commande</a><br>
+                <a class="liens2" href="">J’ai un code promotionnel et je souhaite l’utiliser</a>
+            </div>
+ 
+        </section>
+        <!-- FIN QUESTIONS -->
+ 
+    </section>
+ 
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.robert{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: #FFF;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flexible{
+    display: flex;
+    margin-left: 10vh;
+    padding: 5vh;
+}
+
+section .martha{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "i d"
+    "i f"
+    "i cp";
+}
+
+body.paul{
+    height: 38px;
+    margin: auto;
+}
+
+img.produit{
+    /*height: 861px;*/
+    border-radius: 5%;
+    /* width: 566px; */
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 0 4px 2px #aaa; 
+    width: 95%;
+}
+
+section .simon{
+    grid-area: d;
+    /* height: 390px; */
+    border-radius: 5%;
+    /* margin-top: 20px; */
+    background: #FFF5EE;
+    /* width: 550px; */
+    /*padding-left: 30px;
+    padding-top: 50px;*/
+    /* padding: 20px; */
+    width: 90% ;
+    height: 85%;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+h3{
+    color: #F4A460;
+    font-size: 17px;
+}
+
+span{
+    color: black;
+    /* padding: 20px; */
+    padding: 5%;
+}
+
+.nicolas{
+    font-size: 12px;
+}
+
+section form{
+    grid-area: f;
+}
+
+section .compote{
+    grid-area: cp;
+    /* width: 550px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;    
+    padding-right: 10px; */
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-bottom: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 90%;
+}
+
+section .gertrude{
+    justify-content: space-around;
+    margin-left: -20px;
+    display: flex;
+    align-items: space-around;
+    padding: 30px;
+}
+
+.marguerite{
+    /* padding-right: 150px; */
+    padding-right: 20%;
+}
+
+.anne{
+    /* padding-right: 0px; */
+    padding-right: 0%;
+}
+
+.ellipse {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+section .michel{
+    align-self: flex-start;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0;
+    padding-top: 0;
+}
+
+.totoro, .mononoke {
+    margin-top: 20px;
+}
+
+.totoro {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+}
+
+section .paulette{
+    background: #2D6A4F;
+    color: #FFF;
+    border-radius: 30px;
+    height: 40px;
+    font-family: sans-serif Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    background-image: url("images/panier.jpg") no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    flex: 0 0 495px;
+    box-shadow: 0 4px 2px #aaa, inset 0 2px 6px #000000;
+}
+
+.chris, .jill{
+    display: inline;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.jill {
+    margin-left: 10px;
+}
+
+section .renaud{
+    background: #FFBB8B;
+    border: #FFBB8B;
+    color: black;
+    border-radius: 30px;
+    height: 40px;
+    width: 550px;
+    font-family: sans-serif Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    vertical-align: middle;
+    box-shadow: inset 0 0 5px 1px #aaa; 
+}
+
+section .kokoro{
+    background: url(./Images/Vector.png) no-repeat center;
+    width: 40px;
+    height: 40px ;
+    border: none;
+    background-size: contain;
+    flex: 0 0 40px;
+    margin-left: auto; 
+}
+
+.elsa{
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+
+.patrice{
+    display: flex;
+    flex-direction: column;
+    width : min(290px,100%); 
+    text-align: justify;
+}
+
+.eleonore{
+    display: flex;
+    flex-direction: column;
+    width : min(230px,100%); 
+}
+
+.emile, .martin{
+    font-size: 15px;
+}
+
+.corinne, .lana {
+    font-size: 14px;
+}
+
+.corinne{
+    padding-right: 20px;
+    border-right: #FFBB8B solid 1px ;
+}
+
+.lana{
+    padding-left: 20px;
+}
+
+.emile{
+    padding-left: 20px;
+    text-decoration: underline;
+}
+
+.martin{
+    text-decoration: underline;
+}
+
+input[type="button"],.paulette {
+    cursor: pointer;
+}
+
+.spacer {
+    height: 5vh;
+}
+
+/* caroussel */
+.slideshow-container {
+    width: 596px;
+    /* height: 861px; */
+    max-width: 1000px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: i;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #434745;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .prev {
+    margin-left: 20px;
+  }
+
+  .next {
+    right: 20px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @media (max-width: 800px) {
+    section .martha{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+        "i"
+        "d"
+        "f"
+        "cp";
+    }
+
+    img.produit, section .simon,section .michel,section .compote{
+        width: 550px;
+    }
+
+    section .simon,section .michel,section .compote {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .paul{
+        display: none;
+    }
+  }
+
+
+
